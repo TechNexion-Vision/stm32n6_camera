@@ -1243,8 +1243,7 @@ static int TEVS_Init(void)
 		return -22;
 	}
 
-	printf("[   INFO ] %s(): TEVS version: %02d.%02d.%02d.%02d\n", __func__,
-			((ver[0] >> 8) & 0xFF), (ver[0] & 0xFF),
+	printf("[   INFO ] %s(): TEVS version: %02d.%02d.%02d.%02d\n", __func__, ((ver[0] >> 8) & 0xFF), (ver[0] & 0xFF),
 	        ((ver[1] >> 8) & 0xFF), (ver[1] & 0xFF));
 
 	fflush(stdout);
